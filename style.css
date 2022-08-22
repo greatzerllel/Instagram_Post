@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.post{
+  background-color: white;
+  max-width: 480px;
+}
+.post_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+.fa-brands, .fab{
+    font-size: 40px;
+    margin-right: 12px;
+}
+.menu{
+    width: 100%;
+    text-align: right;
+    margin-right: 8px;
+}
+.post_img img{
+    width: 100%;
+}
+.post_bottom{
+    padding: 8px;
+}
+.post_bottom div{
+padding: 8px 0px;
+}
+.post_bottom-Icons{
+    display: flex;
+    justify-content: space-between;
+}
+.post_bottom-Icons-left > i{
+   margin-right: 8px;
+}
+.post_bottom-Icons-right > i{
+    margin-right: 8px;
+}
+.post_bottom-Data, .post_bottom-Text{
+    font-size: 14px;
+}
