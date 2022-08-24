@@ -8,6 +8,8 @@ body{
 .post{
   background-color: white;
   max-width: 480px;
+  margin: auto;
+  margin-top: 200px;
 }
 .post_header{
     display: flex;
